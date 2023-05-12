@@ -13,15 +13,11 @@ while True:
             if liczba % 2 == 0:
                 liczba = liczba/2
                 lista_wyrazow_ciagu.append(liczba)
-                print("Liczba - {}".format(liczba))
                 wyraz_ciagu = wyraz_ciagu +1
-                print("Wyraz ciagu - {}".format(wyraz_ciagu))
             elif not liczba % 2 == 0:
                 liczba = 3*liczba+1
                 lista_wyrazow_ciagu.append(liczba)
-                print("Liczba - {}".format(liczba))
                 wyraz_ciagu = wyraz_ciagu + 1
-                print("Wyraz ciagu - {}".format(wyraz_ciagu))
             if liczba == 1:
-                print("Dlugosc ciagu wynosi {} wyrazow: {}".format(wyraz_ciagu, lista_wyrazow_ciagu))
+                print("Dlugosc ciagu wynosi {} wyrazow, tj: {}".format(wyraz_ciagu, lista_wyrazow_ciagu))
                 break
